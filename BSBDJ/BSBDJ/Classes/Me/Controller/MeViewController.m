@@ -7,26 +7,40 @@
 //
 
 #import "MeViewController.h"
-
+#import "MeCell.h"
+#import "MeFooterView.h"
 @interface MeViewController ()
 
 @end
 
 @implementation MeViewController
 
+- (instancetype)init
+{
+    return [self initWithStyle:UITableViewStyleGrouped];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupNavigationView];
+    [self setupTableView];
 }
+
 - (void)setupNavigationView
 {
     self.navigationItem.title = @"我";
     UIBarButtonItem *settingItem = [UIBarButtonItem createBarButtonItem:@"mine-setting-icon" highlightedImage:@"mine-setting-icon-click-click" target:self action:@selector(settingItemClick)];
-    
     UIBarButtonItem *moonItem = [UIBarButtonItem createBarButtonItem:@"mine-moon-icon" highlightedImage:@"mine-moon-icon-click" target:self action:@selector(moonItemClick)];
-
+    self.navigationItem.rightBarButtonItems = @[settingItem, moonItem];
+}
+- (void)setupTableView
+{
+    self.view.backgroundColor = kCommonBgColor;
+    self.tableView.contentInset = UIEdgeInsetsMake(kMargin - 35, 0, 0, 0);
+    self.tableView.sectionHeaderHeight = 0;
+    self.tableView.sectionFooterHeight = kMargin;
+    MeFooterView *footerView = [[MeFooterView alloc]init];
+    self.tableView.tableFooterView = footerView;
     
-    self.navigationItem.rightBarButtonItems = @[moonItem, settingItem];
 }
 - (void)settingItemClick
 {
@@ -36,19 +50,50 @@
 {
     NSLog(@"moonItemClick");
 }
+
+#pragma mark - 数据源方法
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 2;
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 1;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *ID = @"cell";
+    MeCell * cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    if (!cell) {
+        cell = [[MeCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+    }
+    if (indexPath.section == 0) {
+        cell.textLabel.text = @"登录/注册";
+        cell.imageView.image = [UIImage imageNamed:@"setup-head-default"];
+    }else if (indexPath.section == 1)
+    {
+        cell.textLabel.text = @"离线下载";
+        cell.imageView.image = nil;
+    }
+    
+    return cell;
+}
+
+#pragma mark - 代理方法
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (2 == indexPath.section) {
+        return 200.0f;
+    }
+    return 44.0f;
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

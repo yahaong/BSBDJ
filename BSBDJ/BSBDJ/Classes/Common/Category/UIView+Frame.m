@@ -91,5 +91,12 @@
 {
     return self.frame.origin;
 }
-
+- (void)setBottom:(CGFloat)bottom
+{
+    self.y = bottom - self.height;
+}
+- (CGFloat)bottom
+{
+    return CGRectGetMaxY(self.frame);
+}
 @end

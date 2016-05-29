@@ -23,6 +23,13 @@
 		7F5E81DB1CFAE2DD00A64150 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81DA1CFAE2DD00A64150 /* NewViewController.m */; };
 		7F5E81E41CFAEAE900A64150 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81E11CFAEAE900A64150 /* UIBarButtonItem+Extension.m */; };
 		7F5E81E51CFAEAE900A64150 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81E31CFAEAE900A64150 /* UIView+Frame.m */; };
+		7F5E81E81CFB17D600A64150 /* MeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81E71CFB17D600A64150 /* MeCell.m */; };
+		7F5E81EE1CFB1EE100A64150 /* MeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81ED1CFB1EE100A64150 /* MeFooterView.m */; };
+		7F5E81F11CFB254700A64150 /* MeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81F01CFB254700A64150 /* MeModel.m */; };
+		7F5E81F41CFB37BB00A64150 /* MeSguareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81F31CFB37BB00A64150 /* MeSguareButton.m */; };
+		7F5E81F81CFB419C00A64150 /* MeWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81F61CFB419C00A64150 /* MeWebViewController.m */; };
+		7F5E81F91CFB419C00A64150 /* MeWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F5E81F71CFB419C00A64150 /* MeWebViewController.xib */; };
+		BD80FD11569E4AB7A957D852 /* Pods_BSBDJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DAC2D4F38ADA2D60AD9889F /* Pods_BSBDJ.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06F18AAB1C96CE5207210992 /* Pods-BSBDJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSBDJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ.debug.xcconfig"; sourceTree = "<group>"; };
+		0DAC2D4F38ADA2D60AD9889F /* Pods_BSBDJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSBDJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5E81681CFACCDC00A64150 /* BSBDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSBDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5E816C1CFACCDC00A64150 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F5E81771CFACCDC00A64150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +87,18 @@
 		7F5E81E11CFAEAE900A64150 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		7F5E81E21CFAEAE900A64150 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		7F5E81E31CFAEAE900A64150 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		7F5E81E61CFB17D600A64150 /* MeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeCell.h; sourceTree = "<group>"; };
+		7F5E81E71CFB17D600A64150 /* MeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeCell.m; sourceTree = "<group>"; };
+		7F5E81EC1CFB1EE100A64150 /* MeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeFooterView.h; sourceTree = "<group>"; };
+		7F5E81ED1CFB1EE100A64150 /* MeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeFooterView.m; sourceTree = "<group>"; };
+		7F5E81EF1CFB254700A64150 /* MeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeModel.h; sourceTree = "<group>"; };
+		7F5E81F01CFB254700A64150 /* MeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeModel.m; sourceTree = "<group>"; };
+		7F5E81F21CFB37BB00A64150 /* MeSguareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeSguareButton.h; sourceTree = "<group>"; };
+		7F5E81F31CFB37BB00A64150 /* MeSguareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeSguareButton.m; sourceTree = "<group>"; };
+		7F5E81F51CFB419C00A64150 /* MeWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeWebViewController.h; sourceTree = "<group>"; };
+		7F5E81F61CFB419C00A64150 /* MeWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeWebViewController.m; sourceTree = "<group>"; };
+		7F5E81F71CFB419C00A64150 /* MeWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeWebViewController.xib; sourceTree = "<group>"; };
+		EAC48910F1E1285406E66656 /* Pods-BSBDJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSBDJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD80FD11569E4AB7A957D852 /* Pods_BSBDJ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +134,8 @@
 				7F5E81841CFACCDC00A64150 /* BSBDJTests */,
 				7F5E818F1CFACCDC00A64150 /* BSBDJUITests */,
 				7F5E81691CFACCDC00A64150 /* Products */,
+				99D40F088F55CA45C283C437 /* Pods */,
+				F53B894EBE8664D39A69294C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -318,6 +342,9 @@
 			children = (
 				7F5E81D31CFAE24700A64150 /* MeViewController.h */,
 				7F5E81D41CFAE24700A64150 /* MeViewController.m */,
+				7F5E81F51CFB419C00A64150 /* MeWebViewController.h */,
+				7F5E81F61CFB419C00A64150 /* MeWebViewController.m */,
+				7F5E81F71CFB419C00A64150 /* MeWebViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -325,6 +352,8 @@
 		7F5E81B11CFAD08900A64150 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7F5E81EF1CFB254700A64150 /* MeModel.h */,
+				7F5E81F01CFB254700A64150 /* MeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -332,6 +361,12 @@
 		7F5E81B21CFAD08900A64150 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7F5E81E61CFB17D600A64150 /* MeCell.h */,
+				7F5E81E71CFB17D600A64150 /* MeCell.m */,
+				7F5E81EC1CFB1EE100A64150 /* MeFooterView.h */,
+				7F5E81ED1CFB1EE100A64150 /* MeFooterView.m */,
+				7F5E81F21CFB37BB00A64150 /* MeSguareButton.h */,
+				7F5E81F31CFB37BB00A64150 /* MeSguareButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -394,6 +429,23 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		99D40F088F55CA45C283C437 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06F18AAB1C96CE5207210992 /* Pods-BSBDJ.debug.xcconfig */,
+				EAC48910F1E1285406E66656 /* Pods-BSBDJ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F53B894EBE8664D39A69294C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DAC2D4F38ADA2D60AD9889F /* Pods_BSBDJ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -401,9 +453,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F5E81951CFACCDC00A64150 /* Build configuration list for PBXNativeTarget "BSBDJ" */;
 			buildPhases = (
+				2305AFCC2820FFA1F5807E14 /* 📦 Check Pods Manifest.lock */,
 				7F5E81641CFACCDC00A64150 /* Sources */,
 				7F5E81651CFACCDC00A64150 /* Frameworks */,
 				7F5E81661CFACCDC00A64150 /* Resources */,
+				2FFC5BA970E57A9F9602DF5F /* 📦 Embed Pods Frameworks */,
+				1FEF324C344A5967829085E2 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -498,6 +553,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F5E81781CFACCDC00A64150 /* Assets.xcassets in Resources */,
+				7F5E81F91CFB419C00A64150 /* MeWebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,20 +573,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FEF324C344A5967829085E2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2305AFCC2820FFA1F5807E14 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2FFC5BA970E57A9F9602DF5F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSBDJ/Pods-BSBDJ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F5E81641CFACCDC00A64150 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7F5E81E41CFAEAE900A64150 /* UIBarButtonItem+Extension.m in Sources */,
+				7F5E81E81CFB17D600A64150 /* MeCell.m in Sources */,
+				7F5E81EE1CFB1EE100A64150 /* MeFooterView.m in Sources */,
+				7F5E81F41CFB37BB00A64150 /* MeSguareButton.m in Sources */,
 				7F5E81C21CFAD61400A64150 /* TabBar.m in Sources */,
 				7F5E81BC1CFAD15300A64150 /* TabBarController.m in Sources */,
 				7F5E81DB1CFAE2DD00A64150 /* NewViewController.m in Sources */,
 				7F5E81BF1CFAD2D400A64150 /* NavigationController.m in Sources */,
+				7F5E81F11CFB254700A64150 /* MeModel.m in Sources */,
 				7F5E81E51CFAEAE900A64150 /* UIView+Frame.m in Sources */,
 				7F5E81D51CFAE24700A64150 /* MeViewController.m in Sources */,
 				7F5E81CC1CFADFE900A64150 /* Const.m in Sources */,
 				7F5E81B91CFAD08900A64150 /* AppDelegate.m in Sources */,
+				7F5E81F81CFB419C00A64150 /* MeWebViewController.m in Sources */,
 				7F5E816D1CFACCDC00A64150 /* main.m in Sources */,
 				7F5E81D81CFAE25900A64150 /* CommentViewController.m in Sources */,
 				7F5E81CF1CFAE22100A64150 /* EssenceViewController.m in Sources */,
@@ -654,6 +763,7 @@
 		};
 		7F5E81961CFACCDC00A64150 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F18AAB1C96CE5207210992 /* Pods-BSBDJ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -668,6 +778,7 @@
 		};
 		7F5E81971CFACCDC00A64150 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC48910F1E1285406E66656 /* Pods-BSBDJ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -745,6 +856,7 @@
 				7F5E81971CFACCDC00A64150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F5E81981CFACCDC00A64150 /* Build configuration list for PBXNativeTarget "BSBDJTests" */ = {
 			isa = XCConfigurationList;
@@ -753,6 +865,7 @@
 				7F5E819A1CFACCDC00A64150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F5E819B1CFACCDC00A64150 /* Build configuration list for PBXNativeTarget "BSBDJUITests" */ = {
 			isa = XCConfigurationList;
@@ -761,6 +874,7 @@
 				7F5E819D1CFACCDC00A64150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

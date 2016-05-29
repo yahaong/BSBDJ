@@ -11,3 +11,4 @@
 UIKIT_EXTERN CGFloat const kTabBarH;
 UIKIT_EXTERN CGFloat const kStatusBarH;
 UIKIT_EXTERN CGFloat const kNavigationBarH;
+UIKIT_EXTERN CGFloat const kMargin;
