@@ -11,6 +11,8 @@
 
 #import "UIView+Frame.h"
 #import "Const.h"
+#import "UIBarButtonItem+Extension.h"
+
 //----------------------ABOUT SCREEN & SIZE 屏幕&尺寸 ----------------------------
 /**
  iPad Air {{0, 0}, {768, 1024}}
@@ -75,12 +77,13 @@
 #define COLOR(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
 
 #define kClearColor [UIColor clearColor]
+#define kCommonBgColor RGBCOLOR(206, 206, 206)
 
 //----------------------ABOUT PRINTING LOG 打印日志 ----------------------------
 // 调试状态下打印日志
 #ifdef DEBUG
-#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
 #else
-#   define DLog(...)
+#define DLog(...)
 #endif
 #endif /* PrefixHeader_pch */

@@ -15,8 +15,14 @@
 		7F5E81BC1CFAD15300A64150 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81BB1CFAD15300A64150 /* TabBarController.m */; };
 		7F5E81BF1CFAD2D400A64150 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81BE1CFAD2D400A64150 /* NavigationController.m */; };
 		7F5E81C21CFAD61400A64150 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81C11CFAD61400A64150 /* TabBar.m */; };
-		7F5E81C81CFADA7A00A64150 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81C71CFADA7A00A64150 /* UIView+Frame.m */; };
 		7F5E81CC1CFADFE900A64150 /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81CB1CFADFE900A64150 /* Const.m */; };
+		7F5E81CF1CFAE22100A64150 /* EssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81CE1CFAE22100A64150 /* EssenceViewController.m */; };
+		7F5E81D21CFAE23600A64150 /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81D11CFAE23600A64150 /* FollowViewController.m */; };
+		7F5E81D51CFAE24700A64150 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81D41CFAE24700A64150 /* MeViewController.m */; };
+		7F5E81D81CFAE25900A64150 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81D71CFAE25900A64150 /* CommentViewController.m */; };
+		7F5E81DB1CFAE2DD00A64150 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81DA1CFAE2DD00A64150 /* NewViewController.m */; };
+		7F5E81E41CFAEAE900A64150 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81E11CFAEAE900A64150 /* UIBarButtonItem+Extension.m */; };
+		7F5E81E51CFAEAE900A64150 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81E31CFAEAE900A64150 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +61,23 @@
 		7F5E81BE1CFAD2D400A64150 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		7F5E81C01CFAD61400A64150 /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
 		7F5E81C11CFAD61400A64150 /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
-		7F5E81C61CFADA7A00A64150 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		7F5E81C71CFADA7A00A64150 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		7F5E81C91CFADAA900A64150 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7F5E81CA1CFADFE900A64150 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
 		7F5E81CB1CFADFE900A64150 /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
+		7F5E81CD1CFAE22100A64150 /* EssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceViewController.h; sourceTree = "<group>"; };
+		7F5E81CE1CFAE22100A64150 /* EssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceViewController.m; sourceTree = "<group>"; };
+		7F5E81D01CFAE23600A64150 /* FollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowViewController.h; sourceTree = "<group>"; };
+		7F5E81D11CFAE23600A64150 /* FollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowViewController.m; sourceTree = "<group>"; };
+		7F5E81D31CFAE24700A64150 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		7F5E81D41CFAE24700A64150 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		7F5E81D61CFAE25900A64150 /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		7F5E81D71CFAE25900A64150 /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		7F5E81D91CFAE2DD00A64150 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		7F5E81DA1CFAE2DD00A64150 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		7F5E81E01CFAEAE900A64150 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		7F5E81E11CFAEAE900A64150 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		7F5E81E21CFAEAE900A64150 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		7F5E81E31CFAEAE900A64150 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,12 +168,12 @@
 			children = (
 				7F5E819F1CFAD08900A64150 /* AppDelegate */,
 				7F5E81A61CFAD08900A64150 /* Common */,
-				7F5E81B71CFAD08900A64150 /* Utility */,
-				7F5E81A21CFAD08900A64150 /* Comment */,
 				7F5E81A71CFAD08900A64150 /* Essence */,
+				7F5E81B31CFAD08900A64150 /* New */,
 				7F5E81AB1CFAD08900A64150 /* Follow */,
 				7F5E81AF1CFAD08900A64150 /* Me */,
-				7F5E81B31CFAD08900A64150 /* New */,
+				7F5E81B71CFAD08900A64150 /* Utility */,
+				7F5E81A21CFAD08900A64150 /* Comment */,
 				7F5E81B81CFAD08900A64150 /* Vendors */,
 			);
 			path = Classes;
@@ -183,6 +201,8 @@
 		7F5E81A31CFAD08900A64150 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7F5E81D61CFAE25900A64150 /* CommentViewController.h */,
+				7F5E81D71CFAE25900A64150 /* CommentViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -204,14 +224,13 @@
 		7F5E81A61CFAD08900A64150 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				7F5E81DF1CFAEAE900A64150 /* Category */,
 				7F5E81BA1CFAD15300A64150 /* TabBarController.h */,
 				7F5E81BB1CFAD15300A64150 /* TabBarController.m */,
 				7F5E81BD1CFAD2D400A64150 /* NavigationController.h */,
 				7F5E81BE1CFAD2D400A64150 /* NavigationController.m */,
 				7F5E81C01CFAD61400A64150 /* TabBar.h */,
 				7F5E81C11CFAD61400A64150 /* TabBar.m */,
-				7F5E81C61CFADA7A00A64150 /* UIView+Frame.h */,
-				7F5E81C71CFADA7A00A64150 /* UIView+Frame.m */,
 				7F5E81CA1CFADFE900A64150 /* Const.h */,
 				7F5E81CB1CFADFE900A64150 /* Const.m */,
 			);
@@ -231,6 +250,8 @@
 		7F5E81A81CFAD08900A64150 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7F5E81CD1CFAE22100A64150 /* EssenceViewController.h */,
+				7F5E81CE1CFAE22100A64150 /* EssenceViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -262,6 +283,8 @@
 		7F5E81AC1CFAD08900A64150 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7F5E81D01CFAE23600A64150 /* FollowViewController.h */,
+				7F5E81D11CFAE23600A64150 /* FollowViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -293,6 +316,8 @@
 		7F5E81B01CFAD08900A64150 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7F5E81D31CFAE24700A64150 /* MeViewController.h */,
+				7F5E81D41CFAE24700A64150 /* MeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -324,6 +349,8 @@
 		7F5E81B41CFAD08900A64150 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7F5E81D91CFAE2DD00A64150 /* NewViewController.h */,
+				7F5E81DA1CFAE2DD00A64150 /* NewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -354,6 +381,17 @@
 			children = (
 			);
 			path = Vendors;
+			sourceTree = "<group>";
+		};
+		7F5E81DF1CFAEAE900A64150 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7F5E81E01CFAEAE900A64150 /* UIBarButtonItem+Extension.h */,
+				7F5E81E11CFAEAE900A64150 /* UIBarButtonItem+Extension.m */,
+				7F5E81E21CFAEAE900A64150 /* UIView+Frame.h */,
+				7F5E81E31CFAEAE900A64150 /* UIView+Frame.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,13 +522,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F5E81C81CFADA7A00A64150 /* UIView+Frame.m in Sources */,
+				7F5E81E41CFAEAE900A64150 /* UIBarButtonItem+Extension.m in Sources */,
 				7F5E81C21CFAD61400A64150 /* TabBar.m in Sources */,
 				7F5E81BC1CFAD15300A64150 /* TabBarController.m in Sources */,
+				7F5E81DB1CFAE2DD00A64150 /* NewViewController.m in Sources */,
 				7F5E81BF1CFAD2D400A64150 /* NavigationController.m in Sources */,
+				7F5E81E51CFAEAE900A64150 /* UIView+Frame.m in Sources */,
+				7F5E81D51CFAE24700A64150 /* MeViewController.m in Sources */,
 				7F5E81CC1CFADFE900A64150 /* Const.m in Sources */,
 				7F5E81B91CFAD08900A64150 /* AppDelegate.m in Sources */,
 				7F5E816D1CFACCDC00A64150 /* main.m in Sources */,
+				7F5E81D81CFAE25900A64150 /* CommentViewController.m in Sources */,
+				7F5E81CF1CFAE22100A64150 /* EssenceViewController.m in Sources */,
+				7F5E81D21CFAE23600A64150 /* FollowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

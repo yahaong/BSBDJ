@@ -8,6 +8,10 @@
 
 #import "TabBarController.h"
 #import "NavigationController.h"
+#import "EssenceViewController.h"
+#import "FollowViewController.h"
+#import "MeViewController.h"
+#import "NewViewController.h"
 #import "TabBar.h"
 @interface TabBarController ()
 
@@ -39,10 +43,11 @@
 
 - (void)createAllChildController
 {
-    [self createOneChildController:[[UIViewController alloc]init] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
-    [self createOneChildController:[[UIViewController alloc]init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
-    [self createOneChildController:[[UIViewController alloc]init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
-    [self createOneChildController:[[UIViewController alloc]init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
+    [self createOneChildController:[[EssenceViewController alloc]init] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
+    
+    [self createOneChildController:[[NewViewController alloc]init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
+    [self createOneChildController:[[FollowViewController alloc]init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
+    [self createOneChildController:[[MeViewController alloc]init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
 }
 - (void)createOneChildController:(UIViewController *)childVc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage
 {
