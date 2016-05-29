@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  BSBDJ
+//
+//  Created by yahaong on 16/5/29.
+//  Copyright © 2016年 yahaong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+Frame.h"
+
+
+#endif /* PrefixHeader_pch */
