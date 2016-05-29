@@ -16,6 +16,7 @@
 		7F5E81BF1CFAD2D400A64150 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81BE1CFAD2D400A64150 /* NavigationController.m */; };
 		7F5E81C21CFAD61400A64150 /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81C11CFAD61400A64150 /* TabBar.m */; };
 		7F5E81C81CFADA7A00A64150 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81C71CFADA7A00A64150 /* UIView+Frame.m */; };
+		7F5E81CC1CFADFE900A64150 /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E81CB1CFADFE900A64150 /* Const.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		7F5E81C61CFADA7A00A64150 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		7F5E81C71CFADA7A00A64150 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		7F5E81C91CFADAA900A64150 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7F5E81CA1CFADFE900A64150 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		7F5E81CB1CFADFE900A64150 /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +212,8 @@
 				7F5E81C11CFAD61400A64150 /* TabBar.m */,
 				7F5E81C61CFADA7A00A64150 /* UIView+Frame.h */,
 				7F5E81C71CFADA7A00A64150 /* UIView+Frame.m */,
+				7F5E81CA1CFADFE900A64150 /* Const.h */,
+				7F5E81CB1CFADFE900A64150 /* Const.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -483,6 +488,7 @@
 				7F5E81C21CFAD61400A64150 /* TabBar.m in Sources */,
 				7F5E81BC1CFAD15300A64150 /* TabBarController.m in Sources */,
 				7F5E81BF1CFAD2D400A64150 /* NavigationController.m in Sources */,
+				7F5E81CC1CFADFE900A64150 /* Const.m in Sources */,
 				7F5E81B91CFAD08900A64150 /* AppDelegate.m in Sources */,
 				7F5E816D1CFACCDC00A64150 /* main.m in Sources */,
 			);
