@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -9,6 +9,7 @@
             <connections>
                 <outlet property="backItem" destination="gko-1M-KDd" id="LWo-6X-mCy"/>
                 <outlet property="forwardItem" destination="wco-mj-YgH" id="LjQ-Pm-hFf"/>
+                <outlet property="progressView" destination="uSg-Mp-8LK" id="468-SD-06g"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="webView" destination="1YU-zU-h9T" id="we0-eA-bnB"/>
             </connections>
@@ -46,11 +47,20 @@
                         </barButtonItem>
                     </items>
                 </toolbar>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uSg-Mp-8LK">
+                    <rect key="frame" x="0.0" y="64" width="600" height="2"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="rvV-3Q-kJZ"/>
+                    </constraints>
+                </progressView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="1YU-zU-h9T" secondAttribute="trailing" id="9gt-mM-rbe"/>
+                <constraint firstAttribute="trailing" secondItem="uSg-Mp-8LK" secondAttribute="trailing" id="KX0-cL-h8G"/>
                 <constraint firstItem="1YU-zU-h9T" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QaT-Ii-kaN"/>
+                <constraint firstItem="uSg-Mp-8LK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Sed-MK-PqG"/>
+                <constraint firstItem="uSg-Mp-8LK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="Uwc-rR-GMk"/>
                 <constraint firstItem="hNV-4H-7Fj" firstAttribute="top" secondItem="1YU-zU-h9T" secondAttribute="bottom" id="WcT-Cn-xjN"/>
                 <constraint firstAttribute="trailing" secondItem="hNV-4H-7Fj" secondAttribute="trailing" id="bov-PN-DIQ"/>
                 <constraint firstItem="hNV-4H-7Fj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="h3n-6g-jTF"/>
