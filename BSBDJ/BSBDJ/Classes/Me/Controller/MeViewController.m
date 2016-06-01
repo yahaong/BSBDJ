@@ -9,6 +9,7 @@
 #import "MeViewController.h"
 #import "MeCell.h"
 #import "MeFooterView.h"
+#import "SettingViewController.h"
 @interface MeViewController ()
 
 @end
@@ -44,7 +45,8 @@
 }
 - (void)settingItemClick
 {
-    NSLog(@"settingItemClick");
+    SettingViewController *settingVc = [[SettingViewController alloc]init];
+    [self.navigationController pushViewController:settingVc animated:YES];
 }
 - (void)moonItemClick
 {
