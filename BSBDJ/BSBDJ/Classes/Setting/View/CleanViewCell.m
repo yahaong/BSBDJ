@@ -29,14 +29,14 @@
 
         __weak typeof(self) weakSelf = self;
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-            sleep(2);
+
             NSString *text = [weakSelf getCacheSize];
             dispatch_async(dispatch_get_main_queue(), ^{
                 weakSelf.textLabel.text = text;
                 weakSelf.accessoryView = nil;
                 weakSelf.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-                UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(click)];
-                [self addGestureRecognizer:tap];
+                UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:weakSelf action:@selector(click)];
+                [weakSelf addGestureRecognizer:tap];
                 weakSelf.userInteractionEnabled = YES;
             });
         });
@@ -111,5 +111,9 @@
     UIActivityIndicatorView *indicatorView = (UIActivityIndicatorView *)self.accessoryView;
     [indicatorView startAnimating];
 }
+- (void)dealloc
+{
+    DLog(@"哈哈哈哈 我被释放了!");
 
+}
 @end

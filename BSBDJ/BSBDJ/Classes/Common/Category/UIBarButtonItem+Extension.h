@@ -10,5 +10,5 @@
 
 @interface UIBarButtonItem (Extension)
 
-+ (UIBarButtonItem *)createBarButtonItem:(NSString *)image highlightedImage:(NSString *)highlightedImage target:(nullable id)target action:(SEL)action;
++ (nonnull UIBarButtonItem * )createBarButtonItem:(nonnull NSString *)image highlightedImage:(nonnull NSString *)highlightedImage target:(nullable id)target action:(nonnull SEL)action;
 @end

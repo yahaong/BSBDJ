@@ -8,6 +8,7 @@ def pods
     pod 'SVProgressHUD', '~> 2.0.3'
     pod 'MJExtension', '~> 3.0.10'
     pod 'NJKWebViewProgress', '~> 0.2.3'
+    pod 'MJRefresh', '~> 3.1.0'
 end
 
 target 'BSBDJ'  do
